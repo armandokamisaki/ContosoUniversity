@@ -1,6 +1,21 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+.indexImage {
+    padding: 1%;
+    border: 10px solid blue;
+    margin: auto;
+}
+.jumbotron {
+    background-color: #e29578;
+}
+.jumbotron h1, header a,
+.row h2 {
+    font-family: Caprasimo, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.row h2 {
+    margin-left: 5%;
+}
 a.navbar-brand {
   white-space: normal;
   text-align: center;
@@ -23,11 +38,16 @@ a {
   background-color: #1b6ec2;
   border-color: #1861ac;
 }
+body {
+    background-color: #83c5be;
+}
 
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  font-size: 14px;
+    font-size: 14px;
+    font-family: Caprasimo, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: 
 }
 @media (min-width: 768px) {
   html {
